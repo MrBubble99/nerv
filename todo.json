@@ -1,0 +1,35 @@
+[
+    {
+    "ticketId" : "xk3d03",
+    "subject" : "Hola, mi item esta roto",
+    "date" : "2020-03-01 01:30:00Z",
+    "from" : "Joaquin Perez",
+    "status" : "SOLVED",
+    "body": "Mi producto llego roto, no funciona como debería"
+    },
+    {
+    "ticketId" : "xx35",
+    "subject" : "Hola, mi item no llego",
+    "date" : "2020-03-02 05:30:00Z",
+    "from" : "Romina Esperanto",
+    "status" : "NEW",
+    "body": "Mi producto no llegó, cuando debería llegar?"
+    },
+    {
+        "ticketId" : "xk3d04",
+        "subject" : "Hola, me falto un item",
+        "date" : "2020-05-05 01:37:00Z",
+        "from" : "Joaquin Perez",
+        "status" : "SOLVED",
+        "body": "Mi pedido me llego, pero falta el Dron"
+        },
+        {
+        "ticketId" : "xx36",
+        "subject" : "Hola, mi item aun no llego",
+        "date" : "2020-09-02 05:30:00Z",
+        "from" : "Romina Esperanto",
+        "status" : "NEW",
+        "body": "Sigo esperando mi pedido, cuando debería llegar?"
+        }
+    ]
+   

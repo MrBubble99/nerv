@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(209, 207, 207);
+}
+
+footer{
+        text-align: center;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+.content{
+    background-color: white;
+    border-radius: 5%;
+    padding-top: 1px;
+    margin-top: 15px;
+}
+
+.request{
+    text-align: center;
+
+}
+
+.btnGrup{
+    text-align: center;
+    margin: 33px 10px 33px 0px;
+}
+
+.cen{
+    justify-content: center;
+}
+
+#btnAdd{
+    margin-bottom: 20px;
+}
+
+.status{
+    background-color: red;
+    border-radius: 10%;
+    text-align: center;
+    margin-right: 30px;
+    padding: 2px 5px 2px 5px;
+    color: white;
+}
+
+.statusS{
+    background-color: purple;
+    border-radius: 10%;
+    text-align: center;
+    margin-right: 30px;
+    padding: 2px 5px 2px 5px;
+    color: white;
+}
+
+.sL{
+    font-size: small;
+}
+.m{
+    margin-right: 90px;
+    
+}
+
+#btnNew{
+    color:white;
+    background-color: red;
+
+}
+
+#btnDone{
+    color:white;
+    background-color: purple;
+}
+.fa-angle-right{
+
+    
+    float: right;
+    font-size: 30px;
+}
+.mar{
+    margin-top: -30px;
+}
+
+.ma{
+    margin-top: -20px;
+}
+.row{
+    display: flex;
+}
+
+.card{
+    margin: 20px;
+}
+
+
+#txtNombreBuscar{
+    margin-left: 20%;
+    
+}
+
+.buscar{
+    padding-bottom: 10%;
+}
+
+.last{
+    padding-bottom: 10px;
+}
+
+h1{
+    margin: 20px 10px 10px 20px;
+}
+
+.fa {
+    color: orange !important;
+    margin-right: 5px;
+}
+
+.ticketsNew{
+    border: 3px black solid;
+    position: absolute;
+    background-color: red;
+    border-radius: 150%;
+    padding: 2px;
+    margin: -19px 0px 0px 35px;
+    font-size: small;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}

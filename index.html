@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+    <div class="row">
+       <a href=""><i class="fa fa-chevron-left" aria-hidden="true"></i>Volver</a>
+    </div>
+
+       
+        <div class="content">
+            
+            <div class="row">
+                <h1>Tickets</h1>
+                <div class="btnGrup">
+                    <span class="ticketsNew">2</span>
+                    <button class="col-2" id="btnNew"  onload="count"> NEW </button>
+                    <button class="col-2" id="btnDone">SOLVED</button>
+                    <button class="col-2" id="btn">ALL</button>
+                </div>
+                            
+             </div>
+             <div class="row buscar">
+                <input type="text" id="txtNombreBuscar" value="Buscar nombre" >
+                <button id="btnBuscar"><i class="fa fa-search" aria-hidden="true"></i></button>
+                
+            </div>
+
+            <div onload="traerDatos()" id="info">
+
+            </div>
+        </div>
+     
+    </div>
+
+    <footer>
+        <img src="img/LogoTM.png" alt="Logo Tienda Mia">
+    </footer>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="ajax.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    
+</body>
+</html>
